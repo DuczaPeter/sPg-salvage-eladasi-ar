@@ -1,0 +1,10 @@
+{
+  "project": "sPg Salvage Selling Price",
+  "release": "V055-GitHubRelease",
+  "functionalRuntimeBaseline": "V054-UEXDeepLinks",
+  "releaseDate": "2026-09-22",
+  "singleFileRelease": "release/sPg_salvage_eladasi_ar_V055_GitHubRelease.html",
+  "sha256": "0a5188ba5073c88478c186ac4dc03f68b9a05c7fc0f37dc2dc44fbc3be6b8f78",
+  "validatedBaselineSha256": "a19adedee93b2ba9bb35d8daa8e6c62efdc854dcef963c51b42bdaa1b69887ea",
+  "runtimeEvidence": "test-artifacts/V054/runtime-log.json"
+}

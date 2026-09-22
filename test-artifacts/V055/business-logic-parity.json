@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "functions": [
+    {
+      "function": "estimateRecovery",
+      "v054": "27204813fbfe8019d66d759e13e6064317d68270451954e97d66a23562425b4c",
+      "v055": "27204813fbfe8019d66d759e13e6064317d68270451954e97d66a23562425b4c",
+      "status": "PASS"
+    },
+    {
+      "function": "buildRecoveryModel",
+      "v054": "f6e7e8334836aafd4a5aba303ceb4f33bf267e2285baf3aeb805f54ce7d7c1e9",
+      "v055": "f6e7e8334836aafd4a5aba303ceb4f33bf267e2285baf3aeb805f54ce7d7c1e9",
+      "status": "PASS"
+    },
+    {
+      "function": "constructionBySystem",
+      "v054": "4faa425b41dd367aaf600b2d012e3eeb0ee3e86fdfcff826ad2395087509f6ad",
+      "v055": "4faa425b41dd367aaf600b2d012e3eeb0ee3e86fdfcff826ad2395087509f6ad",
+      "status": "PASS"
+    },
+    {
+      "function": "cmatSellBySystem",
+      "v054": "0bfba829a6af671edbb0d2a587ac08659da559ab679b2d817d6999a8257ff874",
+      "v055": "0bfba829a6af671edbb0d2a587ac08659da559ab679b2d817d6999a8257ff874",
+      "status": "PASS"
+    },
+    {
+      "function": "rmcBySystem",
+      "v054": "0ecffea5e306e9c37e6d1f95b13719a55e6241c4e271106677e950d00452a651",
+      "v055": "0ecffea5e306e9c37e6d1f95b13719a55e6241c4e271106677e950d00452a651",
+      "status": "PASS"
+    },
+    {
+      "function": "groupedPriceRows",
+      "v054": "f77746e2e0f9070ad8db01d87727b9aa7d24872642779314ee2287b4739abf1c",
+      "v055": "f77746e2e0f9070ad8db01d87727b9aa7d24872642779314ee2287b4739abf1c",
+      "status": "PASS"
+    },
+    {
+      "function": "shipCompatibility",
+      "v054": "b336c8a1900225ea1b467802ce4fcb692eac3b9fa511db7aa6c47272b9438db0",
+      "v055": "b336c8a1900225ea1b467802ce4fcb692eac3b9fa511db7aa6c47272b9438db0",
+      "status": "PASS"
+    },
+    {
+      "function": "salvageVehicleRows",
+      "v054": "b2810b3ac8bb18f436db2c7c1e728ed72a7204f0927398b1fb2f5e03d01f7d72",
+      "v055": "b2810b3ac8bb18f436db2c7c1e728ed72a7204f0927398b1fb2f5e03d01f7d72",
+      "status": "PASS"
+    },
+    {
+      "function": "refineryFacilityCandidates",
+      "v054": "d46527f77f216e7ea612ce3106b28d9d8992f3ac3547525c1a8f4b3ddbbd8c84",
+      "v055": "d46527f77f216e7ea612ce3106b28d9d8992f3ac3547525c1a8f4b3ddbbd8c84",
+      "status": "PASS"
+    },
+    {
+      "function": "sameLocationCandidates",
+      "v054": "b2b04f22a446dba4b35c16da095fe1ea586ecefe2d74b7e86b6422e8d6e5a280",
+      "v055": "b2b04f22a446dba4b35c16da095fe1ea586ecefe2d74b7e86b6422e8d6e5a280",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-**sPg salvage eladási ár – Star Citizen salvage segéd**
-
-Egy két nyelvű, egyfájlos webes segéd, ami megmutatja, hol érdemes a CMATS-t finomítani és CMAT-ként eladni, illetve hol kapod a legtöbbet az RMC-ért. LIVE UEX árakat használ, SCMDB-vel és Star Citizen Wiki adatokkal keresztellenőriz, és a kiválasztott salvage hajó hangár/landing pad kompatibilitását is figyelembe veszi.
-
-Top 3 vagy teljes lista, Stanton/Pyro/Nyx bontás, Felszín/Űr szűrő, Dinyx/Pyrometric, CMAT Finomítás + Eladás vagy Csak Eladás. A hiányzó hangáradatot nem találja ki: amit nem tud igazolni, azt jelzi és biztonságosan kizárja.
-
-Röviden: kevesebb matek, kevesebb fölösleges repkedés, gyorsabb döntés arról, hova vidd a salvage anyagot.

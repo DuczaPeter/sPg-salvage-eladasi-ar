@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
-<rect width="1200" height="430" rx="30" fill="#071019"/><text x="60" y="72" fill="#f5fbff" font-family="Arial" font-size="38" font-weight="700">Validated Functional Baseline: V054</text>
-<g font-family="Arial" font-size="21">
-<text x="65" y="138" fill="#4caf50">● Storage architecture PASS</text><text x="65" y="182" fill="#4caf50">● Adaptive slim pipeline PASS</text><text x="65" y="226" fill="#4caf50">● UEX deep links PASS</text><text x="65" y="270" fill="#4caf50">● Feature failures: 0 · Runtime errors: 0</text><text x="65" y="314" fill="#4caf50">● Coverage: 144/144 executed · 120 PASS · 24 valid EMPTY</text><text x="65" y="358" fill="#ffc107">● Access audit: ATTENTION only where source evidence is unknown</text>
-</g></svg>

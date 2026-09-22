@@ -1,0 +1,7 @@
+**sPg Salvage Selling Price – Star Citizen salvage helper**
+
+A bilingual single-file web tool that shows where to refine CMATS and sell the resulting CMAT, and where to get the best RMC sale prices. It uses LIVE UEX prices, cross-checks refinery/structure data with SCMDB and Star Citizen Wiki, and can filter results by verified salvage-ship access.
+
+Top 3 or full results, Stanton/Pyro/Nyx grouping, Surface/Space filters, Dinyx/Pyrometric, Refine + Sell or Sell Only. Missing hangar data is never guessed: unverifiable locations are flagged and safely excluded for ship filtering.
+
+In short: less manual math, less unnecessary flying, faster salvage selling decisions.

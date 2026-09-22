@@ -1,0 +1,23 @@
+{
+  "project": "sPg salvage eladási ár",
+  "version": "V038",
+  "generated_package_date": "2026-09-22",
+  "runtime": "single-file HTML",
+  "baseline_sha256": "c06f5bc09dd70ed370109462cdba606db6080be3c0a5ee67ec9c6b546983939c",
+  "validation": {
+    "coverage_expected": 144,
+    "coverage_actual": 144,
+    "PASS": 120,
+    "EMPTY": 24,
+    "UNKNOWN_HANGAR": 0,
+    "CONFLICT": 0,
+    "ERROR": 0,
+    "coverage_duration_ms": 1208,
+    "operational_access": {
+      "VERIFIED": 47,
+      "UNKNOWN": 12,
+      "CONFLICT": 0
+    },
+    "overall": "ATTENTION"
+  }
+}

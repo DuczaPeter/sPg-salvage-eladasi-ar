@@ -1,9 +1,0 @@
-{
-  "name": "spg-salvage-selling-price",
-  "private": true,
-  "version": "0.55.0",
-  "type": "module",
-  "scripts": {
-    "check": "node tools/check-release.mjs"
-  }
-}

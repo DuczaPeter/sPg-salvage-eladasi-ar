@@ -1,0 +1,322 @@
+{
+  "generatedAt": "2026-09-23",
+  "standardVersion": "V4.1",
+  "count": 63,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "8d75fbed0329d55480242ea79c61cbdd3da312c700298bfba9572b81ec325cc6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 923,
+      "sha256": "6cf6e63ffe41ec43700b8fdef6f4c1674c34206007043cd33317304f08b4b2a9"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "bytes": 580,
+      "sha256": "cc41c9b910aed161bdfc78cad8509176f3757420fb608706c3208a90a0b3a2d8"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 827,
+      "sha256": "a240fd6f8429fc9d95b42039b59dcb0053f120e1fab8e2438fecf1310017952a"
+    },
+    {
+      "path": ".github/workflows/static-check.yml",
+      "bytes": 271,
+      "sha256": "5f92f9f0ed5e6c98a233c75674ff3784f45d956d5227a0c53b819fd70b3cfa36"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 77,
+      "sha256": "4f4f7087ab225832500835fe74ac861bf112e1b8f3ab3d06fa536ae0b92fed3d"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 4751,
+      "sha256": "e160494adeeca72ef1a87c9bbdac33b5926c2e60f6bdb5790877de357d4ff166"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 4743,
+      "sha256": "5b49ef96b6468dc4e48684efdc4e72044ca8760229c9a05fa3fa0650b23f7159"
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "bytes": 1414,
+      "sha256": "0c5e3bfc4867f5cd583de404de5e8cbcb111e49b766834f3b1c0291f0b1b02bb"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1385,
+      "sha256": "aa65b619edd82feb1c0026a4b0ec80deaa83f8932f5c22e10063520824c4f982"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1095,
+      "sha256": "9653ae114d680798396baa138ff21e73049afaccd91cd7de7c82fee2c5d02f9e"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1346,
+      "sha256": "dba56c7cf4a2f61587a63374001ca98d25dcee33488ed47e9425c40e375a6809"
+    },
+    {
+      "path": "PACKAGE-MANIFEST.json",
+      "bytes": 1537,
+      "sha256": "76bbe0c06b3da8ec139c369eba7f35f241d05733142b51dfe013e2b5d32af5c9"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1348,
+      "sha256": "85f973bf6b7c650416945870d1344534ad7ad37bd8d5cd1316b736ae451d7b23"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 6752,
+      "sha256": "05db63f5b6c3d2b59356ad02a2f23c10869d264a63c049cebd8ca3cb78833f39"
+    },
+    {
+      "path": "README.hu.md",
+      "bytes": 7597,
+      "sha256": "1d7d060be6e37ba77ad807820fc4d0206f5998f8e0322d15be72039f66e856a2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2539,
+      "sha256": "851b9b7fac67ff3ff6982b23dac4fd14af7a6c23e230d500a5aacd79dc76e035"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1111,
+      "sha256": "10768f0fba1789d8a435fc10ae460c514317ac15741898d3fec007742f421a10"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 4127,
+      "sha256": "b5b045ca042aacb55d73fe8b45a8089e4ff4802d7be8b7572c76e0c537406e33"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 6530,
+      "sha256": "be2f4b447b69acb4596cfc9131af149a7ce56c2db5261ec341f8b9e17b9cbc71"
+    },
+    {
+      "path": "VERSION.json",
+      "bytes": 849,
+      "sha256": "51b32d0a681c28552765db33d5e335e67dcf47b64cb519a2affff2583b47015d"
+    },
+    {
+      "path": "docs/ARCHITECTURE.en.md",
+      "bytes": 1749,
+      "sha256": "0e9f3b5bbc9596a88d06c5e3484ca6b2b1644ef0252821c0d584a9360c78eb8b"
+    },
+    {
+      "path": "docs/ARCHITECTURE.hu.md",
+      "bytes": 1831,
+      "sha256": "6e1b8b929da247f63ef3041c159b349ee08df5142bb940c0fbc45beb68cbb623"
+    },
+    {
+      "path": "docs/DATA-SOURCES.en.md",
+      "bytes": 1382,
+      "sha256": "265b1cde42ef957d11e8f24244482cc5c4efea133f3b501cf1dc4649d01da662"
+    },
+    {
+      "path": "docs/DATA-SOURCES.hu.md",
+      "bytes": 1552,
+      "sha256": "02991cb13c1bceb63fe214819c6e55c74ee26e99568f06080f9ae09a4a872e0d"
+    },
+    {
+      "path": "docs/GITHUB-PAGES.en.md",
+      "bytes": 296,
+      "sha256": "92a4cae219232c2a4044198100d61c7d4cb86d4b09b8e794b06049cc8d92b024"
+    },
+    {
+      "path": "docs/GITHUB-PAGES.hu.md",
+      "bytes": 336,
+      "sha256": "fbe9ddcc401c65ccfb9876515172efa649571a60742ccd3ec394fe82762db849"
+    },
+    {
+      "path": "docs/KNOWN-LIMITATIONS.en.md",
+      "bytes": 1289,
+      "sha256": "fc517000a6577ec8a458e9ae3ee3ac35d5c92ab404b74c03a4ffd92f7d4cd782"
+    },
+    {
+      "path": "docs/KNOWN-LIMITATIONS.hu.md",
+      "bytes": 1369,
+      "sha256": "f5dddde7eee05be54e1b8958843b1bc16b13f0a170cc86cb259e1dbec93edc92"
+    },
+    {
+      "path": "docs/LEGAL.en.md",
+      "bytes": 1197,
+      "sha256": "0ee9f3a0691f03ac13f0606b800de33f87cd224bab88f34bcf2e3292ac826078"
+    },
+    {
+      "path": "docs/LEGAL.hu.md",
+      "bytes": 1324,
+      "sha256": "83d0afd5c5c06ebe5fb6d56350b103b6f98bb4b3e2e2872b5aaca5f53469c558"
+    },
+    {
+      "path": "docs/RELEASE-AUDIT-V4.1.md",
+      "bytes": 3569,
+      "sha256": "ef62ee9319511f44e482b770de531e6f6a572cb3f8d0b22b15fd1e4380ab9b5a"
+    },
+    {
+      "path": "docs/RELEASE-CONTRACT.md",
+      "bytes": 3175,
+      "sha256": "333535d193ee4aadbf029f688eed060c1acaca1b9cd5107a4cc7a1e8a85dbaff"
+    },
+    {
+      "path": "docs/RELEASE-NOTES.en.md",
+      "bytes": 1059,
+      "sha256": "ed6e615fc2be4b975a83dde703a9dbe2a759fa3584effa65c033a63df4ace769"
+    },
+    {
+      "path": "docs/RELEASE-NOTES.hu.md",
+      "bytes": 1102,
+      "sha256": "1d2ab03459cefc4b74528951ce9153ab1bbf80b63e59ac2df9595e9421d9bcc8"
+    },
+    {
+      "path": "docs/RELEASE.en.md",
+      "bytes": 1013,
+      "sha256": "a54cd4ffc9be2cdacafcd71f6c85c318f9e57af498b2db34f9ba33504a0da0a1"
+    },
+    {
+      "path": "docs/RELEASE.hu.md",
+      "bytes": 1097,
+      "sha256": "6eb02a6baac8037884e0cbbc2f4490feed9ac1cb3d0c93890f55bf4630b408ff"
+    },
+    {
+      "path": "docs/RELEASE_STANDARD.md",
+      "bytes": 22073,
+      "sha256": "97df0a9866c6828fc91219294af2d980eb4125b0381fb4724dcb0a00dfa4c76b"
+    },
+    {
+      "path": "docs/ROADMAP.en.md",
+      "bytes": 1019,
+      "sha256": "6d1144ac3b23307c0e30e02204a91831f5aa801abd912db6c7b553dea99b8c2f"
+    },
+    {
+      "path": "docs/ROADMAP.hu.md",
+      "bytes": 1128,
+      "sha256": "46b1832b30295c64a48df5cde0b5ea1a7bd9c046807b5a476ca168ee89aca3af"
+    },
+    {
+      "path": "docs/TESTING.en.md",
+      "bytes": 1908,
+      "sha256": "e1b07ce6b93305987ef3cc08e34d81d14c05bf1ea44000138bc79dbc4283de4f"
+    },
+    {
+      "path": "docs/TESTING.hu.md",
+      "bytes": 2047,
+      "sha256": "d99c1fb77a4b57cf1daebca02bf9d38fcb10646b424ca5ba1eaa78a936b72f46"
+    },
+    {
+      "path": "docs/USER-GUIDE.en.md",
+      "bytes": 1512,
+      "sha256": "4afb96b8e23d2f2cd8148e332282dbfdcdf55469543b6046751b784fbaf06e00"
+    },
+    {
+      "path": "docs/USER-GUIDE.hu.md",
+      "bytes": 1823,
+      "sha256": "92f2a00cf483aeff7fdd1e19282f0e38975a4e0013d7e1e0bc786399a3f79d40"
+    },
+    {
+      "path": "docs/images/architecture.png",
+      "bytes": 130737,
+      "sha256": "cc395004aa2c201a166190c0f8276711daa14a7fbebb155bdfeebb233f36c429"
+    },
+    {
+      "path": "docs/images/architecture.svg",
+      "bytes": 3116,
+      "sha256": "c719472d17b79b5ff3c6069fbb73d80105a2b8b78ac4db11304bd289ee29b487"
+    },
+    {
+      "path": "docs/images/social-preview.png",
+      "bytes": 620484,
+      "sha256": "c6ea95d15447d79c1313a53f54c7a758b7960cf7b89da90e1d4dacecc773a3f4"
+    },
+    {
+      "path": "docs/images/social-preview.svg",
+      "bytes": 2068,
+      "sha256": "c2e61c6f3f1ab665df3511eae0a2a7533b5de8b5522e0120c701562757c46729"
+    },
+    {
+      "path": "docs/images/validation-status.png",
+      "bytes": 103621,
+      "sha256": "21132145aca31214da8a34c2f123d757d34482814f19ecc59849d6a13fc66449"
+    },
+    {
+      "path": "docs/images/validation-status.svg",
+      "bytes": 1138,
+      "sha256": "c4ad1c72c5ac379a0ab997352859500994b2fbd31f7d2973c5ce9ffc9c423564"
+    },
+    {
+      "path": "docs/images/workflow.png",
+      "bytes": 125876,
+      "sha256": "b33334f4b41d4d5ea16fc01426525afe7d048f8f6b7c31247f6d2ce059edd557"
+    },
+    {
+      "path": "docs/images/workflow.svg",
+      "bytes": 1758,
+      "sha256": "51ade719a06fec1c4103823e883a034479c32d82103ab74ad863f3e3afd31e9d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 237460,
+      "sha256": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 168,
+      "sha256": "fc441cbc1d81457485cbe4e6a2c75ccc57ec0d75c073ece74d92ce3ea525ae5e"
+    },
+    {
+      "path": "release/sPg_salvage_eladasi_ar_V058_SellOnlyDeterministic.html",
+      "bytes": 237460,
+      "sha256": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9"
+    },
+    {
+      "path": "test-artifacts/V058/release-gate-summary-v4.1.json",
+      "bytes": 2181,
+      "sha256": "a5692e5ee5cf57e81a2aaa6aae203bf0c9aebc0b63daf237c19315cee3aa8aae"
+    },
+    {
+      "path": "test-artifacts/V058/release-parity.json",
+      "bytes": 341,
+      "sha256": "6151e834969b98a6cc6de57f3e38507d6d2041417a18f725f60743bf2436f980"
+    },
+    {
+      "path": "test-artifacts/V058/runtime-log.json",
+      "bytes": 1270868,
+      "sha256": "b5729da604433d0c65eb76790c237900ab695e05a9c71e1333a95ede33301b7c"
+    },
+    {
+      "path": "test-artifacts/V058/runtime-summary.json",
+      "bytes": 86868,
+      "sha256": "3096eb2e5bd1f9ebf46e9f0a50c79a56acc5c02fd54e5f57457ce0521981c8ed"
+    },
+    {
+      "path": "test-artifacts/V058/static-check-v4.1.json",
+      "bytes": 4598,
+      "sha256": "fff51592de1103cda6c37fd79fa64340079de3ee97d2cd76e817b6ef2b1d6574"
+    },
+    {
+      "path": "test-artifacts/V058/static-check.json",
+      "bytes": 1893,
+      "sha256": "8555f91e1a2462c7fb82225229875393333870542a89c69376c11db0beffa9f7"
+    },
+    {
+      "path": "test-artifacts/V058/visual-validation-v4.1.json",
+      "bytes": 1408,
+      "sha256": "31b28e1be9fa10cc66f152e30626fa1e1ca2645ee590bfac4310512669ae23bb"
+    },
+    {
+      "path": "tools/check-release.mjs",
+      "bytes": 9396,
+      "sha256": "78d38141e1deaf527820d225ddf3b75a0c38100caef58c76bf808425efd64bbf"
+    }
+  ]
+}

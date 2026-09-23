@@ -1,0 +1,182 @@
+{
+  "app": "sPg Salvage Selling Price",
+  "version": "V058-SellOnlyDeterministic",
+  "releaseStandard": "V4.1",
+  "packageRevision": "V058-GitHub-Release-Standard-V4.1",
+  "generatedAt": "2026-09-23T05:58:39.557Z",
+  "staticGateStatus": "PASS",
+  "releaseStatus": "READY WITH LIMITATIONS",
+  "checks": [
+    {
+      "id": "BASELINE_SHA256",
+      "status": "PASS",
+      "actual": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9"
+    },
+    {
+      "id": "RELEASE_SHA256",
+      "status": "PASS",
+      "actual": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9"
+    },
+    {
+      "id": "INDEX_RELEASE_BYTE_PARITY",
+      "status": "PASS",
+      "actual": "identical"
+    },
+    {
+      "id": "APP_VERSION",
+      "status": "PASS",
+      "actual": "V058-SellOnlyDeterministic"
+    },
+    {
+      "id": "EXACTLY_TWO_NUMERIC_INPUTS",
+      "status": "PASS",
+      "actual": 2
+    },
+    {
+      "id": "NO_DUPLICATE_IDS",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "id": "INDEXEDDB_ARCHITECTURE_MARKER",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SLIM_SNAPSHOT_MARKER",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "UEX_DEEP_LINK_DIAGNOSTICS",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SELL_ONLY_RUNTIME_GATES_PRESENT",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "VISIBLE_FAN_SITE_NOTICE",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SOURCE_CREDITS",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "HU_EN_I18N",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SINGLE_FILE_NO_LOCAL_DEPS",
+      "status": "PASS",
+      "actual": {
+        "localScript": [],
+        "localCss": []
+      }
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NO_SHIP_FILTER",
+      "status": "PASS",
+      "actual": "passesShipFilter absent"
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NO_SHIP_ACCESS_WEIGHT",
+      "status": "PASS",
+      "actual": "ship access weight absent"
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NEUTRAL_TIE_BREAK",
+      "status": "PASS",
+      "actual": "neutral access-weight callback"
+    },
+    {
+      "id": "INLINE_JS_SYNTAX",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "REQUIRED_RELEASE_FILES",
+      "status": "PASS",
+      "actual": "all present"
+    },
+    {
+      "id": "RELEASE_STANDARD_VERSION",
+      "status": "PASS",
+      "actual": "V4.1"
+    },
+    {
+      "id": "RELEASE_STANDARD_CORE_RULES",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "AGENTS_RELEASE_STANDARD_POINTER",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "RELEASE_CONTRACT_PRESENT",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "RELEASE_AUDIT_PRESENT",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "VERSION_METADATA",
+      "status": "PASS",
+      "actual": {
+        "project": "sPg Salvage Selling Price",
+        "release": "V058-SellOnlyDeterministic",
+        "functionalRuntimeBaseline": "V058-SellOnlyDeterministic",
+        "releaseDate": "2026-09-22",
+        "singleFileRelease": "release/sPg_salvage_eladasi_ar_V058_SellOnlyDeterministic.html",
+        "sha256": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9",
+        "runtimeEvidence": "test-artifacts/V058/runtime-log.json",
+        "runtimeLogSha256": "b5729da604433d0c65eb76790c237900ab695e05a9c71e1333a95ede33301b7c",
+        "runtimeFeatureChecks": 50,
+        "featureFailures": 0,
+        "runtimeErrors": 0,
+        "releaseStandardVersion": "V4.1",
+        "packageRevision": "V058-GitHub-Release-Standard-V4.1",
+        "packagePreparedAt": "2026-09-23",
+        "releaseStatus": "READY WITH LIMITATIONS",
+        "releaseContract": "docs/RELEASE-CONTRACT.md",
+        "releaseAudit": "docs/RELEASE-AUDIT-V4.1.md"
+      }
+    },
+    {
+      "id": "VERSION_APP_SHA",
+      "status": "PASS",
+      "actual": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9"
+    },
+    {
+      "id": "RUNTIME_EVIDENCE_SHA256",
+      "status": "PASS",
+      "actual": "b5729da604433d0c65eb76790c237900ab695e05a9c71e1333a95ede33301b7c"
+    },
+    {
+      "id": "VISUAL_ASSETS_PRESENT",
+      "status": "PASS",
+      "actual": "all non-empty"
+    },
+    {
+      "id": "NO_SCMDB_DATA_DUMP",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "id": "CREDENTIAL_SECRET_CLEANLINESS",
+      "status": "PASS",
+      "actual": []
+    }
+  ]
+}

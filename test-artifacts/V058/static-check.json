@@ -1,0 +1,91 @@
+{
+  "app": "sPg Salvage Selling Price",
+  "version": "V058-SellOnlyDeterministic",
+  "generatedAt": "2026-09-22T19:03:03.421Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "APP_VERSION",
+      "status": "PASS",
+      "actual": "V058-SellOnlyDeterministic"
+    },
+    {
+      "id": "INDEX_RELEASE_BYTE_PARITY",
+      "status": "PASS",
+      "actual": "identical"
+    },
+    {
+      "id": "EXACTLY_TWO_NUMERIC_INPUTS",
+      "status": "PASS",
+      "actual": 2
+    },
+    {
+      "id": "NO_DUPLICATE_IDS",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "id": "INDEXEDDB_ARCHITECTURE_MARKER",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SLIM_SNAPSHOT_MARKER",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "UEX_DEEP_LINK_DIAGNOSTICS",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SELL_ONLY_RUNTIME_GATES_PRESENT",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "VISIBLE_FAN_SITE_NOTICE",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SOURCE_CREDITS",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "HU_EN_I18N",
+      "status": "PASS",
+      "actual": "PASS"
+    },
+    {
+      "id": "SINGLE_FILE_NO_LOCAL_DEPS",
+      "status": "PASS",
+      "actual": {
+        "localScript": [],
+        "localCss": []
+      }
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NO_SHIP_FILTER",
+      "status": "PASS",
+      "actual": "passesShipFilter absent"
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NO_SHIP_ACCESS_WEIGHT",
+      "status": "PASS",
+      "actual": "ship access weight absent"
+    },
+    {
+      "id": "SELL_ONLY_STATIC_NEUTRAL_TIE_BREAK",
+      "status": "PASS",
+      "actual": "neutral access-weight callback"
+    },
+    {
+      "id": "INLINE_JS_SYNTAX",
+      "status": "PASS",
+      "actual": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,3092 @@
+{
+  "validatedApp": "sPg salvage eladási ár V058-SellOnlyDeterministic",
+  "generatedAt": "2026-09-22T18:55:42.624Z",
+  "htmlSha256": "0cc91351b280513d95cda2a3463d948189e44ea0a97d001914ce0e88c9bb4ff9",
+  "runtimeLogSha256": "b5729da604433d0c65eb76790c237900ab695e05a9c71e1333a95ede33301b7c",
+  "releaseGate": "PASS_WITH_EXPECTED_SOURCE_ATTENTION",
+  "coverage": {
+    "overallStatus": "ATTENTION",
+    "expectedChecks": {
+      "cmat": 108,
+      "rmc": 36,
+      "total": 144
+    },
+    "actualChecks": {
+      "cmat": 108,
+      "rmc": 36,
+      "total": 144,
+      "featureChecks": 50
+    },
+    "summary": {
+      "PASS": 120,
+      "EMPTY": 24,
+      "UNKNOWN HANGAR": 0,
+      "CONFLICT": 0,
+      "ERROR": 0
+    },
+    "featureFailures": []
+  },
+  "keyFeatureChecks": {
+    "structuralMaterialResolver": {
+      "status": "PASS",
+      "policy": "Structural salvage resolver is a release-gate feature check. Refine + Sell requires a concrete ship; CMAT Sell Only is ship-independent. Every known salvage ship must resolve to a versioned material mapping with provenance. The internal all-ships coverage baseline is diagnostic-only and must never reappear as a user option.",
+      "summary": {
+        "PASS": 13,
+        "FAIL": 0
+      },
+      "fixtures": [
+        {
+          "name": "RSI Salvation",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "status": "PASS",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "source": "RSI Community Hub · Orison Relief Guide · PTU 4.10.1 final",
+          "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+          "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+        },
+        {
+          "name": "Drake Vulture",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "status": "PASS",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "source": "RSI Community Hub · Orison Relief Guide · PTU 4.10.1 final",
+          "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+          "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+        },
+        {
+          "name": "MISC Fortune",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "status": "PASS",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "source": "RSI Community Hub · Orison Relief Guide · PTU 4.10.1 final",
+          "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+          "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+        },
+        {
+          "name": "ARGO MOTH",
+          "expected": "Construction Pieces",
+          "actual": "Construction Pieces",
+          "status": "PASS",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "source": "RSI Community Hub · Orison Relief Guide · PTU 4.10.1 final",
+          "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+          "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+        },
+        {
+          "name": "Aegis Reclaimer",
+          "expected": "Construction Salvage",
+          "actual": "Construction Salvage",
+          "status": "PASS",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "source": "RSI Community Hub · Orison Relief Guide · PTU 4.10.1 final",
+          "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+          "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+        }
+      ],
+      "roster": [
+        {
+          "id": 234,
+          "name": "Fortune",
+          "material": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "status": "PASS"
+        },
+        {
+          "id": 276,
+          "name": "MOTH",
+          "material": "Construction Pieces",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "status": "PASS"
+        },
+        {
+          "id": 159,
+          "name": "Reclaimer",
+          "material": "Construction Salvage",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "status": "PASS"
+        },
+        {
+          "id": 271,
+          "name": "Salvation",
+          "material": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "status": "PASS"
+        },
+        {
+          "id": 201,
+          "name": "Vulture",
+          "material": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true,
+          "status": "PASS"
+        }
+      ],
+      "checks": [
+        {
+          "id": "FIXTURE:RSI Salvation",
+          "status": "PASS",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true
+        },
+        {
+          "id": "FIXTURE:Drake Vulture",
+          "status": "PASS",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true
+        },
+        {
+          "id": "FIXTURE:MISC Fortune",
+          "status": "PASS",
+          "expected": "Construction Rubble",
+          "actual": "Construction Rubble",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true
+        },
+        {
+          "id": "FIXTURE:ARGO MOTH",
+          "status": "PASS",
+          "expected": "Construction Pieces",
+          "actual": "Construction Pieces",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true
+        },
+        {
+          "id": "FIXTURE:Aegis Reclaimer",
+          "status": "PASS",
+          "expected": "Construction Salvage",
+          "actual": "Construction Salvage",
+          "resolution": "VERSIONED_MAPPING",
+          "provenanceOk": true
+        },
+        {
+          "id": "SHIP_SELECTION_PLACEHOLDER",
+          "status": "PASS",
+          "expected": "empty placeholder option exists",
+          "actual": [
+            "",
+            "234",
+            "276",
+            "159",
+            "271",
+            "201"
+          ]
+        },
+        {
+          "id": "NO_ALL_SHIPS_UI_OPTION",
+          "status": "PASS",
+          "expected": "no all-ships user option",
+          "actual": [
+            "",
+            "234",
+            "276",
+            "159",
+            "271",
+            "201"
+          ]
+        },
+        {
+          "id": "NO_SHIP_RESOLVES_UNKNOWN",
+          "status": "PASS",
+          "expected": {
+            "material": null,
+            "resolution": "UNKNOWN",
+            "source": "NO_SHIP_SELECTED"
+          },
+          "actual": {
+            "material": null,
+            "resolution": "UNKNOWN",
+            "source": "NO_SHIP_SELECTED",
+            "sourceVersion": "Star Citizen 4.10.1 · audited 2026-09-22",
+            "sourceUrl": "https://robertsspaceindustries.com/community-hub/post/orison-relief-guide-yAv8pJoWafJ7c"
+          }
+        },
+        {
+          "id": "ROSTER:Fortune",
+          "status": "PASS",
+          "expected": "resolved VERSIONED_MAPPING with provenance",
+          "actual": {
+            "material": "Construction Rubble",
+            "resolution": "VERSIONED_MAPPING",
+            "provenanceOk": true
+          }
+        },
+        {
+          "id": "ROSTER:MOTH",
+          "status": "PASS",
+          "expected": "resolved VERSIONED_MAPPING with provenance",
+          "actual": {
+            "material": "Construction Pieces",
+            "resolution": "VERSIONED_MAPPING",
+            "provenanceOk": true
+          }
+        },
+        {
+          "id": "ROSTER:Reclaimer",
+          "status": "PASS",
+          "expected": "resolved VERSIONED_MAPPING with provenance",
+          "actual": {
+            "material": "Construction Salvage",
+            "resolution": "VERSIONED_MAPPING",
+            "provenanceOk": true
+          }
+        },
+        {
+          "id": "ROSTER:Salvation",
+          "status": "PASS",
+          "expected": "resolved VERSIONED_MAPPING with provenance",
+          "actual": {
+            "material": "Construction Rubble",
+            "resolution": "VERSIONED_MAPPING",
+            "provenanceOk": true
+          }
+        },
+        {
+          "id": "ROSTER:Vulture",
+          "status": "PASS",
+          "expected": "resolved VERSIONED_MAPPING with provenance",
+          "actual": {
+            "material": "Construction Rubble",
+            "resolution": "VERSIONED_MAPPING",
+            "provenanceOk": true
+          }
+        }
+      ],
+      "failures": []
+    },
+    "controlIsolation": {
+      "status": "PASS",
+      "checks": [
+        {
+          "id": "cmat-mode-does-not-change-result-limit",
+          "status": "PASS",
+          "actual": {
+            "cmatMode": "sellOnly",
+            "resultLimit": "all",
+            "locationFilter": "all",
+            "refiningMethod": "dinyx"
+          },
+          "expectedResultLimit": "all"
+        },
+        {
+          "id": "result-limit-does-not-change-cmat-mode",
+          "status": "PASS",
+          "actual": {
+            "cmatMode": "sellOnly",
+            "resultLimit": "top3",
+            "locationFilter": "all",
+            "refiningMethod": "dinyx"
+          },
+          "expectedCmatMode": "sellOnly"
+        },
+        {
+          "id": "result-limit-roundtrip-independent-of-cmat-mode",
+          "status": "PASS",
+          "actual": {
+            "cmatMode": "refineSell",
+            "resultLimit": "top3",
+            "locationFilter": "all",
+            "refiningMethod": "dinyx"
+          },
+          "allTransitionPass": true,
+          "top3TransitionPass": true
+        },
+        {
+          "id": "result-and-cmat-use-independent-native-radio-bindings",
+          "status": "PASS",
+          "bound": [
+            {
+              "key": "refineSell",
+              "name": "cmatModeNative",
+              "native": "1"
+            },
+            {
+              "key": "sellOnly",
+              "name": "cmatModeNative",
+              "native": "1"
+            },
+            {
+              "key": "top3",
+              "name": "resultLimitNative",
+              "native": "1"
+            },
+            {
+              "key": "all",
+              "name": "resultLimitNative",
+              "native": "1"
+            }
+          ]
+        },
+        {
+          "id": "native-radio-groups-are-distinct",
+          "status": "PASS",
+          "resultNames": [
+            "resultLimitNative",
+            "resultLimitNative"
+          ],
+          "cmatNames": [
+            "cmatModeNative",
+            "cmatModeNative"
+          ]
+        },
+        {
+          "id": "cmat-and-result-hitboxes-do-not-overlap",
+          "status": "PASS",
+          "maxOverlapPx2": 0,
+          "overlapPair": null,
+          "cmatRects": [
+            {
+              "mode": "cmat-refineSell",
+              "left": 1926,
+              "right": 2032,
+              "top": 146,
+              "bottom": 172
+            },
+            {
+              "mode": "cmat-sellOnly",
+              "left": 2036,
+              "right": 2110,
+              "top": 146,
+              "bottom": 172
+            }
+          ],
+          "resultRects": [
+            {
+              "mode": "results-top3",
+              "left": 2120,
+              "right": 2164,
+              "top": 146,
+              "bottom": 172
+            },
+            {
+              "mode": "results-all",
+              "left": 2168,
+              "right": 2252,
+              "top": 146,
+              "bottom": 172
+            }
+          ]
+        },
+        {
+          "id": "sell-only-reserved-method-space-keeps-control-geometry",
+          "status": "PASS",
+          "maxGeometryDeltaPx": 0,
+          "methodBlockDisplay": "block",
+          "reservedByVisibility": true
+        },
+        {
+          "id": "desktop-control-widths-are-fixed",
+          "status": "PASS",
+          "widths": [
+            {
+              "id": "cmat-refineSell",
+              "actual": 106,
+              "expected": 106,
+              "delta": 0
+            },
+            {
+              "id": "cmat-sellOnly",
+              "actual": 74,
+              "expected": 74,
+              "delta": 0
+            },
+            {
+              "id": "results-top3",
+              "actual": 44,
+              "expected": 44,
+              "delta": 0
+            },
+            {
+              "id": "results-all",
+              "actual": 84,
+              "expected": 84,
+              "delta": 0
+            }
+          ]
+        }
+      ]
+    },
+    "storageArchitecture": {
+      "status": "PASS",
+      "policy": "Runtime controls and preferences must never depend on localStorage quota. IndexedDB is primary persistence; localStorage is legacy-only.",
+      "checks": [
+        {
+          "id": "PREFERENCES_INDEXEDDB_PROBE",
+          "status": "PASS",
+          "expected": "PASS",
+          "actual": "PASS"
+        },
+        {
+          "id": "PREFERENCES_NO_LOCALSTORAGE_RUNTIME_DEPENDENCY",
+          "status": "PASS",
+          "expected": "localStorage used only for one-time legacy migration/cleanup + diagnostic probe",
+          "actual": "IndexedDB preference store"
+        },
+        {
+          "id": "DATA_CACHE_INDEXEDDB_AVAILABLE",
+          "status": "PASS",
+          "expected": "IndexedDB cache readable/writable",
+          "actual": {
+            "available": true,
+            "readStatus": "PASS",
+            "writeStatus": "PASS"
+          }
+        }
+      ],
+      "legacyLocalStorage": {
+        "writable": true,
+        "status": "PASS",
+        "error": null,
+        "usedByRuntime": false
+      }
+    },
+    "dataPipeline": {
+      "status": "PASS",
+      "policy": "Fetch narrowly, discover dynamically. New LIVE systems/facilities/prices are discovered from current source data; full source mirrors are not retained. Unknown new mechanics must fail visibly rather than be guessed.",
+      "runtime": {
+        "mode": "ADAPTIVE_LIVE_SCOPED",
+        "liveSystemIds": [
+          55,
+          64,
+          68
+        ],
+        "liveSystemNames": [
+          "Nyx",
+          "Pyro",
+          "Stanton"
+        ],
+        "uexScopedFetches": [
+          {
+            "label": "outposts",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 118
+          },
+          {
+            "label": "cities",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 5
+          },
+          {
+            "label": "space_stations",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 60
+          },
+          {
+            "label": "terminals",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 826
+          },
+          {
+            "label": "poi",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 232
+          }
+        ],
+        "rawCounts": {
+          "vehicles": 282,
+          "commodities": 205,
+          "methods": 9,
+          "yields": 215,
+          "audits": 3,
+          "terminals": 826,
+          "spaceStations": 60,
+          "cities": 5,
+          "outposts": 118,
+          "pois": 232
+        },
+        "keptCounts": {
+          "vehicles": 6,
+          "commodities": 5,
+          "methods": 2,
+          "yields": 2,
+          "audits": 0,
+          "terminals": 96,
+          "spaceStations": 24,
+          "cities": 5,
+          "outposts": 14,
+          "pois": 0
+        },
+        "scwikiLocationMode": "TARGETED_RELEVANT_FACILITIES_ONLY",
+        "scwikiRelevantFacilities": 47,
+        "scwikiLocationQueries": 47,
+        "scwikiLocationRowsFetched": 46,
+        "scwikiSkippedBecauseUexAccess": 12,
+        "cacheShape": "SALVAGE_OPERATIONAL_SNAPSHOT"
+      },
+      "checks": [
+        {
+          "id": "UEX_LOCATION_FETCHES_ARE_LIVE_SYSTEM_SCOPED",
+          "status": "PASS",
+          "expected": "location/terminal datasets requested per dynamically discovered LIVE system with safe fallback",
+          "actual": [
+            {
+              "label": "outposts",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 118
+            },
+            {
+              "label": "cities",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 5
+            },
+            {
+              "label": "space_stations",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 60
+            },
+            {
+              "label": "terminals",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 826
+            },
+            {
+              "label": "poi",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 232
+            }
+          ]
+        },
+        {
+          "id": "SCWIKI_LOCATIONS_ARE_TARGETED_NOT_FULL_PAGINATION",
+          "status": "PASS",
+          "expected": "no full paginated SC Wiki location crawl",
+          "actual": {
+            "mode": "TARGETED_RELEVANT_FACILITIES_ONLY",
+            "queries": 47,
+            "rowsFetched": 46,
+            "loaded": 46
+          }
+        },
+        {
+          "id": "VEHICLE_RUNTIME_SET_IS_SALVAGE_ONLY",
+          "status": "PASS",
+          "expected": "only dynamically discovered salvage spaceships retained after discovery",
+          "actual": [
+            "Reclaimer",
+            "Reclaimer Best In Show Edition",
+            "Vulture",
+            "Fortune",
+            "Salvation",
+            "MOTH"
+          ]
+        },
+        {
+          "id": "COMMODITY_RUNTIME_SET_IS_SALVAGE_RELEVANT",
+          "status": "PASS",
+          "expected": "CMAT/RMC and structural salvage commodities only",
+          "actual": [
+            "CMAT",
+            "RMC",
+            "CMATR",
+            "CMATS",
+            "CP"
+          ]
+        },
+        {
+          "id": "REFINING_METHOD_RUNTIME_SET_IS_SELECTED_ONLY",
+          "status": "PASS",
+          "expected": "Dinyx/Pyrometric only",
+          "actual": [
+            "Dinyx Solventation",
+            "Pyrometric Chromalysis"
+          ]
+        },
+        {
+          "id": "PIPELINE_DISCOVERY_IS_VERSION_DRIVEN",
+          "status": "PASS",
+          "expected": "UEX LIVE + SCMDB latest + SC Wiki default version discovered at runtime",
+          "actual": {
+            "uexLive": "4.10.1",
+            "scmdb": "4.10.1-live.12660092",
+            "scwiki": "4.10.0-LIVE.12519617"
+          }
+        }
+      ]
+    },
+    "sellOnlyDirectCmat": {
+      "status": "PASS",
+      "policy": "Sell Only treats the entered CMAT SCU as already-finished inventory. Recovery, refining loss, ship material mapping and ship-access filtering belong only to Refine + Sell; Sell Only CMAT results must remain identical across salvage-ship selections.",
+      "checks": [
+        {
+          "id": "SELL_ONLY_USES_ENTERED_CMAT_UNCHANGED",
+          "status": "PASS",
+          "expected": {
+            "input": 100,
+            "sellAmount": 100
+          },
+          "actual": {
+            "input": 100,
+            "sellAmount": 100
+          }
+        },
+        {
+          "id": "SELL_ONLY_APPLIES_NO_RECOVERY",
+          "status": "PASS",
+          "expected": "no gross→net conversion in Sell Only",
+          "actual": {
+            "mode": "sellOnly",
+            "input": 100,
+            "sellAmount": 100,
+            "gross": null,
+            "recovery": null,
+            "refined": null,
+            "loss": null,
+            "recoveryApplied": false
+          }
+        },
+        {
+          "id": "REFINE_SELL_STILL_APPLIES_RECOVERY",
+          "status": "PASS",
+          "expected": {
+            "gross": 100,
+            "recovery": 0.152,
+            "refined": 15.2,
+            "loss": 84.8
+          },
+          "actual": {
+            "mode": "refineSell",
+            "input": 100,
+            "sellAmount": null,
+            "gross": 100,
+            "recovery": 0.152,
+            "refined": 15.2,
+            "loss": 84.8,
+            "recoveryApplied": true
+          }
+        },
+        {
+          "id": "SELL_ONLY_HAS_DIRECT_AMOUNT_LABELS_BILINGUAL",
+          "status": "PASS",
+          "expected": "HU+EN direct-sale amount label",
+          "actual": {
+            "hu": "Eladandó CMAT, SCU",
+            "en": "CMAT to sell, SCU"
+          }
+        },
+        {
+          "id": "SELL_ONLY_IGNORES_SALVAGE_SHIP_FILTER",
+          "status": "PASS",
+          "expected": "identical CMAT sell locations/order/prices for no ship and every salvage ship",
+          "actual": {
+            "159": {
+              "chars": 2592,
+              "matchesBaseline": true
+            },
+            "201": {
+              "chars": 2592,
+              "matchesBaseline": true
+            },
+            "234": {
+              "chars": 2592,
+              "matchesBaseline": true
+            },
+            "271": {
+              "chars": 2592,
+              "matchesBaseline": true
+            },
+            "276": {
+              "chars": 2592,
+              "matchesBaseline": true
+            },
+            "none": {
+              "chars": 2592,
+              "matchesBaseline": true
+            }
+          }
+        },
+        {
+          "id": "SELL_ONLY_ORDERING_DOES_NOT_USE_SHIP_ACCESS_WEIGHT",
+          "status": "PASS",
+          "expected": "selected salvage ship cannot affect CMAT Sell Only tie-break ordering",
+          "actual": {
+            "baseline": "none",
+            "allMatch": true
+          }
+        },
+        {
+          "id": "SELL_ONLY_DOES_NOT_REQUIRE_SHIP_SELECTION",
+          "status": "PASS",
+          "expected": false,
+          "actual": false
+        },
+        {
+          "id": "REFINE_SELL_STILL_REQUIRES_SHIP_SELECTION",
+          "status": "PASS",
+          "expected": true,
+          "actual": true
+        }
+      ]
+    },
+    "uexDeepLinks": {
+      "status": "PASS",
+      "policy": "Demand stays on UEX: material headings open the commodity demand page; each rendered result location opens that exact commodity + terminal demand view.",
+      "checks": [
+        {
+          "id": "CMAT_HEADING_LINKS_TO_UEX_DEMAND",
+          "status": "PASS",
+          "expected": "UEX CMAT demand page",
+          "actual": "https://uexcorp.space/commodities/info/name/construction-materials/tab/locations_buying/"
+        },
+        {
+          "id": "RMC_HEADING_LINKS_TO_UEX_DEMAND",
+          "status": "PASS",
+          "expected": "UEX RMC demand page",
+          "actual": "https://uexcorp.space/commodities/info/name/recycled-material-composite/tab/locations_buying/"
+        },
+        {
+          "id": "CMAT_RESULT_DEEP_LINK_USES_TERMINAL_ID",
+          "status": "PASS",
+          "expected": "terminal-specific UEX CMAT demand link",
+          "actual": "https://uexcorp.space/commodities/info/name/construction-materials/tab/locations_buying/id_terminal/66/highlight/scu_last/"
+        },
+        {
+          "id": "RMC_RESULT_DEEP_LINK_USES_TERMINAL_ID",
+          "status": "PASS",
+          "expected": "terminal-specific UEX RMC demand link",
+          "actual": "https://uexcorp.space/commodities/info/name/recycled-material-composite/tab/locations_buying/id_terminal/75/highlight/scu_last/"
+        }
+      ]
+    }
+  },
+  "hangarCompleteness": {
+    "policy": "All operational refinery / CMAT-sale / RMC-sale facilities are audited independently. Hangar, Landing Pad, UEX pad_types and Docking are logged separately; S/M/L may use hangar or landing pad, XL requires a verified XL hangar + docking; an XL landing pad alone does not qualify.",
+    "totalFacilities": 59,
+    "summary": {
+      "VERIFIED": 40,
+      "UNKNOWN": 19,
+      "CONFLICT": 0
+    },
+    "status": "ATTENTION",
+    "unresolvedFacilities": [
+      {
+        "facilityKey": "stanton|terragatewaystanton",
+        "facility": "Terra Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|pyrogatewaystanton",
+        "facility": "Pyro Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|reclamationdisposalorinth",
+        "facility": "Reclamation & Disposal Orinth",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|area18",
+        "facility": "Area 18",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|pickersfield",
+        "facility": "Picker's Field",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|rappel",
+        "facility": "Rappel",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|dunboro",
+        "facility": "Dunboro",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|greenimperialhousingexchange",
+        "facility": "Green Imperial Housing Exchange",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|pyrogatewaynyx",
+        "facility": "Pyro Gateway (Nyx)",
+        "system": "Nyx",
+        "roles": [
+          "refinery",
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|samsonsonssalvagecenter",
+        "facility": "Samson & Son's Salvage Center",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|briosbreakeryard",
+        "facility": "Brio's Breaker Yard",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|devlinscrapsalvage",
+        "facility": "Devlin Scrap & Salvage",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|stantongatewaynyx",
+        "facility": "Stanton Gateway (Nyx)",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|nyxgatewaypyro",
+        "facility": "Nyx Gateway (Pyro)",
+        "system": "Pyro",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|nyxgatewaystanton",
+        "facility": "Nyx Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationdelta",
+        "facility": "People's Service Station Delta",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationalpha",
+        "facility": "People's Service Station Alpha",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationtheta",
+        "facility": "People's Service Station Theta",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationlambda",
+        "facility": "People's Service Station Lambda",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      }
+    ],
+    "facilities": [
+      {
+        "facilityKey": "stanton|porttressler",
+        "facility": "Port Tressler",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|arcl3modernexpressstation",
+        "facility": "ARC-L3 Modern Express Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|micl2longforeststation",
+        "facility": "MIC-L2 Long Forest Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|hurl4melodicfieldsstation",
+        "facility": "HUR-L4 Melodic Fields Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|arcl4faintglenstation",
+        "facility": "ARC-L4 Faint Glen Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|micl1shallowfrontierstation",
+        "facility": "MIC-L1 Shallow Frontier Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|everusharbor",
+        "facility": "Everus Harbor",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|terragatewaystanton",
+        "facility": "Terra Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|pyrogatewaystanton",
+        "facility": "Pyro Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|hurl3thunderingexpressstation",
+        "facility": "HUR-L3 Thundering Express Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|reclamationdisposalorinth",
+        "facility": "Reclamation & Disposal Orinth",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|crul5beautifulglenstation",
+        "facility": "CRU-L5 Beautiful Glen Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|micl5modernicarusstation",
+        "facility": "MIC-L5 Modern Icarus Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|checkmatestation",
+        "facility": "Checkmate Station",
+        "system": "Pyro",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|megumirefueling",
+        "facility": "Megumi Refueling",
+        "system": "Pyro",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|lorville",
+        "facility": "Lorville",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "XL"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "XL"
+        ],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|crul4shallowfieldsstation",
+        "facility": "CRU-L4 Shallow Fields Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|arcl1wideforeststation",
+        "facility": "ARC-L1 Wide Forest Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|area18",
+        "facility": "Area 18",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|hurl1greengladestation",
+        "facility": "HUR-L1 Green Glade Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "S",
+          "M",
+          "L"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "S",
+          "M",
+          "L"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|micl4redcrossroadsstation",
+        "facility": "MIC-L4 Red Crossroads Station",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|newbabbage",
+        "facility": "New Babbage",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "XL"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "XL"
+        ],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|pickersfield",
+        "facility": "Picker's Field",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|rappel",
+        "facility": "Rappel",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|dunboro",
+        "facility": "Dunboro",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|greenimperialhousingexchange",
+        "facility": "Green Imperial Housing Exchange",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|orbituary",
+        "facility": "Orbituary",
+        "system": "Pyro",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|orison",
+        "facility": "Orison",
+        "system": "Stanton",
+        "roles": [
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "XL"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "XL"
+        ],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|pyrogatewaynyx",
+        "facility": "Pyro Gateway (Nyx)",
+        "system": "Nyx",
+        "roles": [
+          "refinery",
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|stantongatewaypyro",
+        "facility": "Stanton Gateway (Pyro)",
+        "system": "Pyro",
+        "roles": [
+          "refinery",
+          "CMAT-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "S",
+          "M",
+          "L"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "S",
+          "M",
+          "L"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|ruinstation",
+        "facility": "Ruin Station",
+        "system": "Pyro",
+        "roles": [
+          "refinery",
+          "CMAT-sell",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|samsonsonssalvagecenter",
+        "facility": "Samson & Son's Salvage Center",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|briosbreakeryard",
+        "facility": "Brio's Breaker Yard",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|devlinscrapsalvage",
+        "facility": "Devlin Scrap & Salvage",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|rodsfuelnsupplies",
+        "facility": "Rod's Fuel 'N Supplies",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|patchcity",
+        "facility": "Patch City",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|starlightservicestation",
+        "facility": "Starlight Service Station",
+        "system": "Pyro",
+        "roles": [
+          "refinery",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "L"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "L"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|endgame",
+        "facility": "Endgame",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|gaslight",
+        "facility": "Gaslight",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|seerscanyon",
+        "facility": "Seer's Canyon",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "S",
+        "pads": [
+          "S"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "S"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|ratsnest",
+        "facility": "Rat's Nest",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|ashland",
+        "facility": "Ashland",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "M",
+        "pads": [
+          "S",
+          "M"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "S",
+          "M"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|dudleydaughters",
+        "facility": "Dudley & Daughters",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|lastlandings",
+        "facility": "Last Landings",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "L"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "L"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|terramillshydrofarm",
+        "facility": "Terra Mills HydroFarm",
+        "system": "Stanton",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "M",
+        "pads": [
+          "M"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|rustville",
+        "facility": "Rustville",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "M",
+        "pads": [
+          "M"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "M"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|fallowfield",
+        "facility": "Fallow Field",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "M",
+        "pads": [
+          "M"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "M"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|thegoldenriviera",
+        "facility": "The Golden Riviera",
+        "system": "Pyro",
+        "roles": [
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "L"
+        ],
+        "source": "UEX",
+        "verification": "verified-uex",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [
+          "L"
+        ],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|levski",
+        "facility": "Levski",
+        "system": "Nyx",
+        "roles": [
+          "refinery",
+          "RMC-sell"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "XL",
+        "pads": [
+          "XL"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": true,
+        "verifiedXlAccess": true,
+        "verifiedXlHangar": true,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "XL"
+        ],
+        "wikiLandingPads": [
+          "XL"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|stantongatewaynyx",
+        "facility": "Stanton Gateway (Nyx)",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "pyro|nyxgatewaypyro",
+        "facility": "Nyx Gateway (Pyro)",
+        "system": "Pyro",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|arcl2livelypathwaystation",
+        "facility": "ARC-L2 Lively Pathway Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|crul1ambitiousdreamstation",
+        "facility": "CRU-L1 Ambitious Dream Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|hurl2faithfuldreamstation",
+        "facility": "HUR-L2 Faithful Dream Station",
+        "system": "Stanton",
+        "roles": [
+          "refinery"
+        ],
+        "status": "VERIFIED",
+        "maxPad": "L",
+        "pads": [
+          "M",
+          "L"
+        ],
+        "source": "SCWiki",
+        "verification": "verified-scwiki-same-minor-stale",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [
+          "L"
+        ],
+        "wikiLandingPads": [
+          "M"
+        ],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "stanton|nyxgatewaystanton",
+        "facility": "Nyx Gateway (Stanton)",
+        "system": "Stanton",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": false,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationdelta",
+        "facility": "People's Service Station Delta",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationalpha",
+        "facility": "People's Service Station Alpha",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationtheta",
+        "facility": "People's Service Station Theta",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      },
+      {
+        "facilityKey": "nyx|peoplesservicestationlambda",
+        "facility": "People's Service Station Lambda",
+        "system": "Nyx",
+        "roles": [
+          "refinery"
+        ],
+        "status": "UNKNOWN",
+        "maxPad": null,
+        "pads": [],
+        "source": "none",
+        "verification": "unknown",
+        "hasDockingPort": true,
+        "hasLoadingDock": false,
+        "verifiedXlAccess": false,
+        "verifiedXlHangar": false,
+        "uexPads": [],
+        "wikiHangarPads": [],
+        "wikiLandingPads": [],
+        "wikiVersion": "4.10.0-LIVE.12519617",
+        "staleSecondaryDisagreement": false
+      }
+    ]
+  },
+  "storageHealth": {
+    "writable": true,
+    "status": "PASS",
+    "error": null,
+    "architecture": "IndexedDB-only runtime persistence: preferences + API/cache snapshot; localStorage is legacy cleanup/diagnostic only and can be full without breaking controls",
+    "preferences": {
+      "backend": "IndexedDB",
+      "available": true,
+      "probeStatus": "PASS",
+      "readStatus": "PASS",
+      "writeStatus": "PASS",
+      "lastError": null
+    },
+    "dataCache": {
+      "backend": "IndexedDB",
+      "available": true,
+      "readStatus": "PASS",
+      "writeStatus": "PASS",
+      "lastError": null
+    },
+    "legacyLocalStorage": {
+      "runtimeDependency": false,
+      "scanned": true,
+      "keysFound": [],
+      "removedKeys": [],
+      "failedKeys": [],
+      "probe": {
+        "writable": true,
+        "status": "PASS",
+        "error": null,
+        "usedByRuntime": false
+      }
+    },
+    "legacyLocalStorageCache": {
+      "key": "spg-salvage-selling-price-v038",
+      "found": false,
+      "migrated": false,
+      "removed": false
+    }
+  },
+  "dataPipeline": {
+    "mode": "ADAPTIVE_LIVE_SCOPED",
+    "liveSystemIds": [
+      55,
+      64,
+      68
+    ],
+    "liveSystemNames": [
+      "Nyx",
+      "Pyro",
+      "Stanton"
+    ],
+    "uexScopedFetches": [
+      {
+        "label": "outposts",
+        "mode": "live-system-scoped",
+        "systems": 3,
+        "rows": 118
+      },
+      {
+        "label": "cities",
+        "mode": "live-system-scoped",
+        "systems": 3,
+        "rows": 5
+      },
+      {
+        "label": "space_stations",
+        "mode": "live-system-scoped",
+        "systems": 3,
+        "rows": 60
+      },
+      {
+        "label": "terminals",
+        "mode": "live-system-scoped",
+        "systems": 3,
+        "rows": 826
+      },
+      {
+        "label": "poi",
+        "mode": "live-system-scoped",
+        "systems": 3,
+        "rows": 232
+      }
+    ],
+    "rawCounts": {
+      "vehicles": 282,
+      "commodities": 205,
+      "methods": 9,
+      "yields": 215,
+      "audits": 3,
+      "terminals": 826,
+      "spaceStations": 60,
+      "cities": 5,
+      "outposts": 118,
+      "pois": 232
+    },
+    "keptCounts": {
+      "vehicles": 6,
+      "commodities": 5,
+      "methods": 2,
+      "yields": 2,
+      "audits": 0,
+      "terminals": 96,
+      "spaceStations": 24,
+      "cities": 5,
+      "outposts": 14,
+      "pois": 0
+    },
+    "scwikiLocationMode": "TARGETED_RELEVANT_FACILITIES_ONLY",
+    "scwikiRelevantFacilities": 47,
+    "scwikiLocationQueries": 47,
+    "scwikiLocationRowsFetched": 46,
+    "scwikiSkippedBecauseUexAccess": 12,
+    "cacheShape": "SALVAGE_OPERATIONAL_SNAPSHOT",
+    "featureGate": {
+      "status": "PASS",
+      "policy": "Fetch narrowly, discover dynamically. New LIVE systems/facilities/prices are discovered from current source data; full source mirrors are not retained. Unknown new mechanics must fail visibly rather than be guessed.",
+      "runtime": {
+        "mode": "ADAPTIVE_LIVE_SCOPED",
+        "liveSystemIds": [
+          55,
+          64,
+          68
+        ],
+        "liveSystemNames": [
+          "Nyx",
+          "Pyro",
+          "Stanton"
+        ],
+        "uexScopedFetches": [
+          {
+            "label": "outposts",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 118
+          },
+          {
+            "label": "cities",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 5
+          },
+          {
+            "label": "space_stations",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 60
+          },
+          {
+            "label": "terminals",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 826
+          },
+          {
+            "label": "poi",
+            "mode": "live-system-scoped",
+            "systems": 3,
+            "rows": 232
+          }
+        ],
+        "rawCounts": {
+          "vehicles": 282,
+          "commodities": 205,
+          "methods": 9,
+          "yields": 215,
+          "audits": 3,
+          "terminals": 826,
+          "spaceStations": 60,
+          "cities": 5,
+          "outposts": 118,
+          "pois": 232
+        },
+        "keptCounts": {
+          "vehicles": 6,
+          "commodities": 5,
+          "methods": 2,
+          "yields": 2,
+          "audits": 0,
+          "terminals": 96,
+          "spaceStations": 24,
+          "cities": 5,
+          "outposts": 14,
+          "pois": 0
+        },
+        "scwikiLocationMode": "TARGETED_RELEVANT_FACILITIES_ONLY",
+        "scwikiRelevantFacilities": 47,
+        "scwikiLocationQueries": 47,
+        "scwikiLocationRowsFetched": 46,
+        "scwikiSkippedBecauseUexAccess": 12,
+        "cacheShape": "SALVAGE_OPERATIONAL_SNAPSHOT"
+      },
+      "checks": [
+        {
+          "id": "UEX_LOCATION_FETCHES_ARE_LIVE_SYSTEM_SCOPED",
+          "status": "PASS",
+          "expected": "location/terminal datasets requested per dynamically discovered LIVE system with safe fallback",
+          "actual": [
+            {
+              "label": "outposts",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 118
+            },
+            {
+              "label": "cities",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 5
+            },
+            {
+              "label": "space_stations",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 60
+            },
+            {
+              "label": "terminals",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 826
+            },
+            {
+              "label": "poi",
+              "mode": "live-system-scoped",
+              "systems": 3,
+              "rows": 232
+            }
+          ]
+        },
+        {
+          "id": "SCWIKI_LOCATIONS_ARE_TARGETED_NOT_FULL_PAGINATION",
+          "status": "PASS",
+          "expected": "no full paginated SC Wiki location crawl",
+          "actual": {
+            "mode": "TARGETED_RELEVANT_FACILITIES_ONLY",
+            "queries": 47,
+            "rowsFetched": 46,
+            "loaded": 46
+          }
+        },
+        {
+          "id": "VEHICLE_RUNTIME_SET_IS_SALVAGE_ONLY",
+          "status": "PASS",
+          "expected": "only dynamically discovered salvage spaceships retained after discovery",
+          "actual": [
+            "Reclaimer",
+            "Reclaimer Best In Show Edition",
+            "Vulture",
+            "Fortune",
+            "Salvation",
+            "MOTH"
+          ]
+        },
+        {
+          "id": "COMMODITY_RUNTIME_SET_IS_SALVAGE_RELEVANT",
+          "status": "PASS",
+          "expected": "CMAT/RMC and structural salvage commodities only",
+          "actual": [
+            "CMAT",
+            "RMC",
+            "CMATR",
+            "CMATS",
+            "CP"
+          ]
+        },
+        {
+          "id": "REFINING_METHOD_RUNTIME_SET_IS_SELECTED_ONLY",
+          "status": "PASS",
+          "expected": "Dinyx/Pyrometric only",
+          "actual": [
+            "Dinyx Solventation",
+            "Pyrometric Chromalysis"
+          ]
+        },
+        {
+          "id": "PIPELINE_DISCOVERY_IS_VERSION_DRIVEN",
+          "status": "PASS",
+          "expected": "UEX LIVE + SCMDB latest + SC Wiki default version discovered at runtime",
+          "actual": {
+            "uexLive": "4.10.1",
+            "scmdb": "4.10.1-live.12660092",
+            "scwiki": "4.10.0-LIVE.12519617"
+          }
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "notes": [
+    "V058 is the exact user-runtime validated release artifact.",
+    "Coverage overallStatus remains ATTENTION only because some facility access evidence is UNKNOWN; featureFailures is empty and runtime errors is empty.",
+    "CMAT Sell Only is direct finished-CMAT selling: no recovery, no ship requirement, no ship access filtering, no ship-dependent tie-break ordering.",
+    "Refine + Sell still requires a concrete salvage ship and still applies ship→material mapping, recovery and access filtering.",
+    "RMC remains ship-access filtered."
+  ]
+}
